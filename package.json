@@ -1,6 +1,8 @@
 {
   "name": "copy-emoji",
   "scripts": {
+    "prettier-check": "prettier -l .",
+    "prettier-write": "prettier --write .",
     "dev": "next",
     "static": "next build && next export"
   },
