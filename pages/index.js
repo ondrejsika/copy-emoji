@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       {emojis.map((el, i) => {
         return (
-          <CopyToClipboard text={el}>
+          <CopyToClipboard text={el} key={i}>
             <button style={{ margin: "10px", fontSize: "2em" }}>{el}</button>
           </CopyToClipboard>
         );
