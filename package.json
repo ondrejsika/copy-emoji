@@ -4,7 +4,8 @@
     "prettier-check": "prettier -l .",
     "prettier-write": "prettier --write .",
     "dev": "next",
-    "static": "next build && next export"
+    "static": "next build && next export",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^12.1.0",
@@ -12,5 +13,9 @@
     "react": "^17.0.2",
     "react-copy-to-clipboard": "^5.0.4",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0"
   }
 }

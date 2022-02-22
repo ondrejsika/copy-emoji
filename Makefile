@@ -4,6 +4,9 @@ fmt:
 fmt-check:
 	yarn run prettier-check
 
+lint:
+	yarn run lint
+
 install-git-hooks:
 	rm -rf .git/hooks && cd .git && ln -s ../.git-hooks hooks
 
