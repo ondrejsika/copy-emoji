@@ -32,7 +32,7 @@ export default function Home() {
       {emojis.map((el, i) => {
         return (
           <CopyToClipboard text={el} key={i}>
-            <button style={{ margin: "10px", fontSize: "2em" }}>{el}</button>
+            <button style={{ margin: "10px", fontSize: "1.9em" }}>{el}</button>
           </CopyToClipboard>
         );
       })}
