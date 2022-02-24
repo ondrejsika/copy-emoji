@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
-let emojis = ["👋", "🦄", "⚠️", "💩"];
+let emojis = ["👋", "🦄", "⚠️", "💩", "😥"];
 
 export default function Home() {
   return (
