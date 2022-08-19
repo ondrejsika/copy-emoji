@@ -16,6 +16,7 @@ let emojis = [
   "🤦",
   "🎉",
   "😘",
+  "💛🖤",
 ];
 
 export default function Home() {
